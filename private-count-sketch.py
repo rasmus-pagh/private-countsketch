@@ -86,7 +86,7 @@ plt.savefig('countsketch-failure-probability.pdf')
 plt.show(block=False)
 
 
-# Sparse vectors
+# Sparse vectors (event-level privacy)
 
 load_factor = 1. # Expected number of nonzero entries in each bucket
 entry_size = 10
